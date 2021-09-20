@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(pj.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 40%;
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 43px;
+    padding: 13px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 23px 0px;
+}
+
+.box input{
+    background: none;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px 0px;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 120px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    color: white;
+    background-color: #f801b382;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+}
